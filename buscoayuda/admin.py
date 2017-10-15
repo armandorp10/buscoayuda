@@ -1,6 +1,8 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
 from django.contrib import admin
+from buscoayuda.models import TiposDeServicio
+from buscoayuda.models import Trabajador
+from buscoayuda.models import Comentario
 
-# Register your models here.
+admin.site.register(TiposDeServicio)
+admin.site.register(Trabajador)
+admin.site.register(Comentario)

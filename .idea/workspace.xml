@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2cdbaf2b-0fce-4a86-82cc-3eeb2c5b6356" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buscoayuda/admin.py" afterPath="$PROJECT_DIR$/buscoayuda/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buscoayuda/functional_test.py" afterPath="$PROJECT_DIR$/buscoayuda/functional_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buscoayuda/templates/polls/index.html" afterPath="$PROJECT_DIR$/buscoayuda/templates/polls/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buscoayuda/templates/polls/registro.html" afterPath="$PROJECT_DIR$/buscoayuda/templates/polls/registro.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,18 +17,95 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/buscoayuda$Unittests_for_functional_test_FunctionalTest_test_1_title.coverage" NAME="Unittests for functional_test.FunctionalTest.test_1_title Coverage Results" MODIFIED="1508083823054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buscoayuda" />
-    <SUITE FILE_PATH="coverage/buscoayuda$Unittests_for_functional_test_FunctionalTest_test_2_registro.coverage" NAME="Unittests for functional_test.FunctionalTest.test_2_registro Coverage Results" MODIFIED="1508088533210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buscoayuda" />
-    <SUITE FILE_PATH="coverage/buscoayuda$Unittests_in_functional_test_py.coverage" NAME="Unittests in functional_test.py Coverage Results" MODIFIED="1508088143969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buscoayuda" />
+    <SUITE FILE_PATH="coverage/buscoayuda$Unittests_for_functional_test_FunctionalTest_test_2_registro.coverage" NAME="Unittests for functional_test.FunctionalTest.test_2_registro Coverage Results" MODIFIED="1508090451395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buscoayuda" />
+    <SUITE FILE_PATH="coverage/buscoayuda$Unittests_in_functional_test_py.coverage" NAME="Unittests in functional_test.py Coverage Results" MODIFIED="1508090147063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buscoayuda" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="functional_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buscoayuda/functional_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="179">
+              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buscoayuda/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buscoayuda/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buscoayuda/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+              <folding>
+                <element signature="e#16#48#0" expanded="true" />
+                <element signature="e#502#722#0" expanded="false" />
+                <element signature="e#748#1218#0" expanded="false" />
+                <element signature="e#1245#1762#0" expanded="false" />
+                <element signature="e#1790#1931#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buscoayuda/templates/polls/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-445">
+              <caret line="30" column="96" lean-forward="false" selection-start-line="30" selection-start-column="92" selection-end-line="30" selection-end-column="96" />
+              <folding>
+                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1922#1929#1" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1508089682345" expanded="true" signature="6018:6062" ph="..." />
+                <marker date="1508089682345" expanded="true" signature="6117:6148" ph="..." />
+                <marker date="1508089682345" expanded="true" signature="6376:6394" ph="..." />
+                <marker date="1508089682345" expanded="true" signature="6534:6556" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registro.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/buscoayuda/templates/polls/registro.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding>
+                <element signature="e#238#245#1" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,6 +121,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>log</find>
+      <find>span</find>
+      <find>id</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -51,14 +138,15 @@
         <option value="$PROJECT_DIR$/appBase/settings.py" />
         <option value="$PROJECT_DIR$/appBase/urls.py" />
         <option value="$PROJECT_DIR$/buscoayuda/urls.py" />
-        <option value="$PROJECT_DIR$/buscoayuda/templates/polls/index.html" />
         <option value="$PROJECT_DIR$/buscoayuda/views.py" />
-        <option value="$PROJECT_DIR$/buscoayuda/templates/polls/registro.html" />
         <option value="$PROJECT_DIR$/buscoayuda/templates/polls/comentario.html" />
         <option value="$PROJECT_DIR$/buscoayuda/templates/polls/detalle.html" />
         <option value="$PROJECT_DIR$/buscoayuda/templates/polls/editar.html" />
         <option value="$PROJECT_DIR$/buscoayuda/templates/polls/login.html" />
+        <option value="$PROJECT_DIR$/buscoayuda/admin.py" />
+        <option value="$PROJECT_DIR$/buscoayuda/templates/polls/index.html" />
         <option value="$PROJECT_DIR$/buscoayuda/functional_test.py" />
+        <option value="$PROJECT_DIR$/buscoayuda/templates/polls/registro.html" />
       </list>
     </option>
   </component>
@@ -218,24 +306,25 @@
       <option name="project" value="LOCAL" />
       <updated>1508088237570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Color rojo: test registro de un independiente">
+      <created>1508088618157</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1508088618157</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_functional_test_FunctionalTest_test_1_title - 2017.10.15 at 11h 03m 19s.xml">
-      <configuration name="Unittests for functional_test.FunctionalTest.test_1_title" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_functional_test_FunctionalTest_test_1_title - 2017.10.15 at 11h 08m 03s.xml">
-      <configuration name="Unittests for functional_test.FunctionalTest.test_1_title" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_functional_test_FunctionalTest_test_1_title - 2017.10.15 at 11h 10m 23s.xml">
-      <configuration name="Unittests for functional_test.FunctionalTest.test_1_title" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_functional_test_FunctionalTest_test_2_registro - 2017.10.15 at 12h 29m 06s.xml">
       <configuration name="Unittests for functional_test.FunctionalTest.test_2_registro" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_functional_test_py - 2017.10.15 at 10h 57m 59s.xml">
-      <configuration name="Unittests in functional_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_functional_test_FunctionalTest_test_2_registro - 2017.10.15 at 12h 58m 47s.xml">
+      <configuration name="Unittests for functional_test.FunctionalTest.test_2_registro" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_functional_test_FunctionalTest_test_2_registro - 2017.10.15 at 13h 01m 03s.xml">
+      <configuration name="Unittests for functional_test.FunctionalTest.test_2_registro" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_functional_test_py - 2017.10.15 at 11h 11m 11s.xml">
       <configuration name="Unittests in functional_test.py" configurationId="tests" />
@@ -252,6 +341,12 @@
     <history-entry file="Unittests_in_functional_test_py - 2017.10.15 at 12h 22m 32s.xml">
       <configuration name="Unittests in functional_test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_functional_test_py - 2017.10.15 at 12h 39m 14s.xml">
+      <configuration name="Unittests in functional_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_functional_test_py - 2017.10.15 at 12h 56m 11s.xml">
+      <configuration name="Unittests in functional_test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
@@ -261,7 +356,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.740675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38543516" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -287,7 +382,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Color rojo: test titulo busco ayuda" />
     <MESSAGE value="Color verde: test titulo busco ayuda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color verde: test titulo busco ayuda" />
+    <MESSAGE value="Color rojo: test registro de un independiente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Color rojo: test registro de un independiente" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -356,74 +452,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/buscoayuda/templates/polls/registro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="94" column="9" lean-forward="false" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-          <folding>
-            <element signature="e#238#245#1" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buscoayuda/templates/polls/editar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
           <caret line="52" column="7" lean-forward="false" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buscoayuda/templates/polls/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-          <folding>
-            <element signature="e#235#242#1" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buscoayuda/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding>
-            <element signature="e#16#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buscoayuda/templates/polls/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2207">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1922#1929#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1508087624954" expanded="true" signature="5985:6029" ph="..." />
-            <marker date="1508087624954" expanded="true" signature="6084:6115" ph="..." />
-            <marker date="1508087624954" expanded="true" signature="6343:6361" ph="..." />
-            <marker date="1508087624954" expanded="true" signature="6501:6523" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buscoayuda/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,10 +478,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/buscoayuda/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buscoayuda/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buscoayuda/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+          <folding>
+            <element signature="e#16#48#0" expanded="true" />
+            <element signature="e#502#722#0" expanded="false" />
+            <element signature="e#748#1218#0" expanded="false" />
+            <element signature="e#1245#1762#0" expanded="false" />
+            <element signature="e#1790#1931#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buscoayuda/templates/polls/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="e#235#242#1" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buscoayuda/templates/polls/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-445">
+          <caret line="30" column="96" lean-forward="false" selection-start-line="30" selection-start-column="92" selection-end-line="30" selection-end-column="96" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1922#1929#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1508089682345" expanded="true" signature="6018:6062" ph="..." />
+            <marker date="1508089682345" expanded="true" signature="6117:6148" ph="..." />
+            <marker date="1508089682345" expanded="true" signature="6376:6394" ph="..." />
+            <marker date="1508089682345" expanded="true" signature="6534:6556" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buscoayuda/templates/polls/registro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#238#245#1" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/buscoayuda/functional_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="179">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
