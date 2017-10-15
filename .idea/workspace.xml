@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2cdbaf2b-0fce-4a86-82cc-3eeb2c5b6356" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buscoayuda/admin.py" afterPath="$PROJECT_DIR$/buscoayuda/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buscoayuda/functional_test.py" afterPath="$PROJECT_DIR$/buscoayuda/functional_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buscoayuda/templates/polls/index.html" afterPath="$PROJECT_DIR$/buscoayuda/templates/polls/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buscoayuda/templates/polls/registro.html" afterPath="$PROJECT_DIR$/buscoayuda/templates/polls/registro.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/buscoayuda$Unittests_for_functional_test_FunctionalTest_test_1_title.coverage" NAME="Unittests for functional_test.FunctionalTest.test_1_title Coverage Results" MODIFIED="1508083823054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buscoayuda" />
+    <SUITE FILE_PATH="coverage/buscoayuda$Unittests_for_functional_test_FunctionalTest_test_3_verDetalle.coverage" NAME="Unittests for functional_test.FunctionalTest.test_3_verDetalle Coverage Results" MODIFIED="1508090642364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buscoayuda" />
     <SUITE FILE_PATH="coverage/buscoayuda$Unittests_for_functional_test_FunctionalTest_test_2_registro.coverage" NAME="Unittests for functional_test.FunctionalTest.test_2_registro Coverage Results" MODIFIED="1508090451395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buscoayuda" />
     <SUITE FILE_PATH="coverage/buscoayuda$Unittests_in_functional_test_py.coverage" NAME="Unittests in functional_test.py Coverage Results" MODIFIED="1508090147063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/buscoayuda" />
   </component>
@@ -25,8 +23,8 @@
       <file leaf-file-name="functional_test.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/buscoayuda/functional_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="142">
+              <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -145,8 +143,8 @@
         <option value="$PROJECT_DIR$/buscoayuda/templates/polls/login.html" />
         <option value="$PROJECT_DIR$/buscoayuda/admin.py" />
         <option value="$PROJECT_DIR$/buscoayuda/templates/polls/index.html" />
-        <option value="$PROJECT_DIR$/buscoayuda/functional_test.py" />
         <option value="$PROJECT_DIR$/buscoayuda/templates/polls/registro.html" />
+        <option value="$PROJECT_DIR$/buscoayuda/functional_test.py" />
       </list>
     </option>
   </component>
@@ -222,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for functional_test.FunctionalTest.test_2_registro">
+  <component name="RunManager" selected="Python tests.Unittests for functional_test.FunctionalTest.test_3_verDetalle">
     <configuration name="Unittests for functional_test.FunctionalTest.test_1_title" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,6 +251,21 @@
       <option name="_new_target" value="&quot;functional_test.FunctionalTest.test_2_registro&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests for functional_test.FunctionalTest.test_3_verDetalle" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/buscoayuda" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="buscoayuda" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;functional_test.FunctionalTest.test_3_verDetalle&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests in functional_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,16 +281,18 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/buscoayuda/functional_test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for functional_test.FunctionalTest.test_1_title" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in functional_test.py" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for functional_test.FunctionalTest.test_2_registro" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for functional_test.FunctionalTest.test_3_verDetalle" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for functional_test.FunctionalTest.test_2_registro" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in functional_test.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for functional_test.FunctionalTest.test_1_title" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for functional_test.FunctionalTest.test_3_verDetalle" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for functional_test.FunctionalTest.test_2_registro" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in functional_test.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for functional_test.FunctionalTest.test_1_title" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508088618157</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Color verde: test registro de un independiente">
+      <created>1508090523149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1508090523149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -326,8 +348,8 @@
     <history-entry file="Unittests_for_functional_test_FunctionalTest_test_2_registro - 2017.10.15 at 13h 01m 03s.xml">
       <configuration name="Unittests for functional_test.FunctionalTest.test_2_registro" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_functional_test_py - 2017.10.15 at 11h 11m 11s.xml">
-      <configuration name="Unittests in functional_test.py" configurationId="tests" />
+    <history-entry file="Unittests_for_functional_test_FunctionalTest_test_3_verDetalle - 2017.10.15 at 13h 04m 12s.xml">
+      <configuration name="Unittests for functional_test.FunctionalTest.test_3_verDetalle" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_functional_test_py - 2017.10.15 at 11h 12m 05s.xml">
       <configuration name="Unittests in functional_test.py" configurationId="tests" />
@@ -383,7 +405,8 @@
     <MESSAGE value="Color rojo: test titulo busco ayuda" />
     <MESSAGE value="Color verde: test titulo busco ayuda" />
     <MESSAGE value="Color rojo: test registro de un independiente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Color rojo: test registro de un independiente" />
+    <MESSAGE value="Color verde: test registro de un independiente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Color verde: test registro de un independiente" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -558,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/buscoayuda/functional_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        <state relative-caret-position="142">
+          <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
