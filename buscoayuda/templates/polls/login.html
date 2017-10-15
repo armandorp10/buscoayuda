@@ -3,18 +3,18 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <h4><span class="glyphicon glyphicon-user"></span> Registrarse</h4>
+                <h4><span class="glyphicon glyphicon-user"></span> Login</h4>
             </div>
             <!--suppress HtmlUnknownTarget -->
             <form role="form" action="login" method="post" enctype="multipart/form-data" id="login-form" novalidate="novalidate">
                 {% csrf_token %}
                 <div class="modal-body">
-                    {% for field in form_login %}
-                        <div class="form-group">
-                            {{ field.label_tag }}
-                            {{ field }}
-                        </div>
-                    {%  endfor %}
+                    {% for field in form_usuario %}
+                    <div class="form-group">
+                        {{ field.label_tag }}
+                        {{ field }}
+                    </div>
+                    {% endfor %}
                 </div>
                 <div class="modal-footer btn-toolbar">
                     <button type="submit" id="btn_login" class="btn btn-default btn-success pull-right">
