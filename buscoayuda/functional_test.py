@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 
 class FunctionalTest(TestCase):
     def setUp(self):
-        self.browser = webdriver.Chrome(executable_path=r'C:\Users\arman\Downloads\chromedriver_win32\chromedriver.exe')
+        self.browser = webdriver.Chrome(executable_path=r'C:\Users\asus\Downloads\Temp Code\buscoayuda\chromedriver.exe')
         #self.browser.set_window_size(1024, 768)
         #self.browser.implicitly_wait(5000)
 
@@ -73,3 +73,17 @@ class FunctionalTest(TestCase):
         h2=self.browser.find_element(By.XPATH, '//h2[text()="Juan Daniel Arevalo"]')
 
         self.assertIn('Juan Daniel Arevalo', h2.text)
+
+    def test_4_login(self):
+        self.browser.get('http://localhost:8000')
+        link = self.browser.find_element_by_id('id_register')
+        link.click()
+
+        nombre = self.browser.find_element_by_id('id_username')
+        nombre.send_keys('usuario1')
+
+        clave = self.browser.find_element_by_id('id_password')
+        clave.send_keys('usuario1')
+
+        btn = self.browser.find_element_by_id('btn_login')
+        btn.click()
