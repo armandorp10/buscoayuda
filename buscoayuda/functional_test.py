@@ -8,9 +8,10 @@ from selenium.webdriver.common.by import By
 
 class FunctionalTest(TestCase):
     def setUp(self):
-        self.browser = webdriver.Chrome(executable_path=r'C:\Users\asus\Downloads\Temp Code\buscoayuda\chromedriver.exe')
-        #self.browser.set_window_size(1024, 768)
-        #self.browser.implicitly_wait(5000)
+        self.browser = webdriver.Chrome(
+            executable_path=r'C:\Users\asus\Downloads\Temp Code\buscoayuda\chromedriver.exe')
+        # self.browser.set_window_size(1024, 768)
+        # self.browser.implicitly_wait(5000)
 
     def tearDown(self):
         self.browser.quit()
@@ -67,10 +68,10 @@ class FunctionalTest(TestCase):
 
     def test_3_verDetalle(self):
         self.browser.get('http://localhost:8000')
-        span=self.browser.find_element(By.XPATH, '//span[text()="Juan Daniel Arevalo"]')
+        span = self.browser.find_element(By.XPATH, '//span[text()="Juan Daniel Arevalo"]')
         span.click()
         self.browser.implicitly_wait(3)
-        h2=self.browser.find_element(By.XPATH, '//h2[text()="Juan Daniel Arevalo"]')
+        h2 = self.browser.find_element(By.XPATH, '//h2[text()="Juan Daniel Arevalo"]')
 
         self.assertIn('Juan Daniel Arevalo', h2.text)
 
@@ -87,3 +88,36 @@ class FunctionalTest(TestCase):
 
         btn = self.browser.find_element_by_id('btn_login')
         btn.click()
+        self.browser.implicitly_wait(3)
+        span = self.browser.find_element(By.XPATH, '//span[text()="a"]')
+
+        self.assertIn('Nombre1', span.text)
+
+    def test_5_editar(self):
+        self.browser.get('http://localhost:8000')
+        link = self.browser.find_element_by_id('id_register')
+        link.click()
+
+        nombre = self.browser.find_element_by_id('id_username')
+        nombre.send_keys('usuario1')
+
+        clave = self.browser.find_element_by_id('id_password')
+        clave.send_keys('usuario1')
+
+        btn = self.browser.find_element_by_id('btn_login')
+        btn.click()
+        self.browser.implicitly_wait(3)
+
+        btn2 = self.browser.find_element_by_id('btn_edit')
+        btn2.click()
+
+        nombreNuevo = self.browser.find_element_by_id('id_firstName')
+        nombreNuevo.send_keys('nuevoNombre')
+
+        btn3 = self.browser.find_element_by_id('id_editar')
+        btn3.click()
+
+        self.browser.implicitly_wait(3)
+        span = self.browser.find_element(By.XPATH, 'id_firstName')
+
+        self.assertIn('nurvoNombre', span.text)
